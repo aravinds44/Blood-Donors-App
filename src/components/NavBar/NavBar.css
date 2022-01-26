@@ -1,0 +1,59 @@
+.navbar{
+    position:fixed;
+    top: 0;
+    height: 30px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ff4c68;
+    color: #ffff;
+    z-index: 1;
+    margin-bottom: 70px;
+}
+
+.logo{
+    margin: -10px;
+    color: white;
+    padding-top: 0;
+    position:fixed;
+    left:20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu-icon{
+    position: absolute;
+    right: 80px;
+    top: 25px;
+}
+
+.menu-icon:hover{
+    cursor: pointer;
+}
+
+.nav-menu-container{
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ff4c67ef;
+}
+
+.nav-menu{
+    margin:200px 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.nav-menu ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-link{
+    margin-bottom: 40px;
+    color: white;
+}

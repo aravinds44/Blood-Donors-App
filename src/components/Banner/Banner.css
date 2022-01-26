@@ -1,0 +1,78 @@
+
+.banner-logo{
+    position: relative;
+    width: 80px;
+}
+
+.banner{
+    padding-left: 30px;
+    padding-top: 20px;
+    position: relative;
+    background-color: #ff4c68;
+    background-size: cover;
+    height: 400px;
+    color: white;
+
+    margin-bottom: 50px;
+}
+
+.logo{
+font-family: 'Pacifico', cursive;
+
+}
+
+.content{
+    padding-top: 40px;
+    text-align: center;
+    height: 190px;
+}
+
+.title-1{
+    font-weight: 400;
+}
+
+.title-2{
+    margin-top: 30px;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-bottom: -10px;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(250% + 1.3px);
+    height: 170px;
+}
+
+.wave .shape-fill {
+    fill: #F7F6FA;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .wave svg {
+        width: calc(300% + 1.3px);
+        height: 170px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .wave svg {
+        width: calc(300% + 1.3px);
+        height: 200px;
+    }
+
+    .content{
+        margin: 40px 10px;
+    }
+}

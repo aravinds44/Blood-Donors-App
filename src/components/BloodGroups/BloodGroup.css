@@ -1,0 +1,63 @@
+.blood-menu{
+    margin-top: 70px;
+    padding:40px 50px;
+}
+
+.blood-menu-label{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #424a67;
+}
+
+.blood-groups{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:300px;
+    margin: 10px 10px;
+}
+
+.blood{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    stroke: #424A67;
+    fill: white;
+}
+
+
+
+.selected{
+    background-color: #ff4c68;
+    stroke: white;
+    box-shadow: #ff4c68 0px 5px 15px;
+}
+
+.drop{
+
+    height: 40px;
+    width: 30px;
+}
+
+.blood-name{
+    font-size: 0.7rem;
+    font-weight: 800;
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 18px;
+    color: #ff4c68;
+}
+
+@media screen and (min-width: 800px) {
+    .blood:hover{
+        background-color: #ff4c68;
+        stroke: white;
+        cursor: pointer;
+        box-shadow: #ff4c68 0px 5px 15px;
+    }
+}

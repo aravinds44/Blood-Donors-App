@@ -1,0 +1,84 @@
+
+.form-container{
+    margin:100px 50px;
+
+
+}
+
+form{
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column  ;
+
+    width: 100%;
+    max-width: 500px;
+
+    margin-top: 1.5rem;
+}
+
+.form-input label{
+    font-weight: 600;
+    color:  #424A67;
+
+}
+
+.form-input input{
+    margin-top: 0.5rem;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    height: 30px;
+    border-bottom: 2px solid #707070;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-input .blood-menu{
+    margin: 0;
+    padding: 0;
+}
+
+.form-input .blood-groups{
+    margin:20px  0;
+}
+
+.form-checkbox{
+    flex-direction: row;
+    position: relative;
+    margin: 20px 0;
+}
+
+.form-checkbox p{
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+
+.register-btn{
+    width: 100%;
+    text-align: center;
+}
+
+.register-btn button{
+    width: 70%  ;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    background-color: #ff4c68;
+    color: white;
+    font-weight: 900;
+    border-radius: 20px;
+}
+
+.register-btn button:hover{
+    box-shadow: #ff4c68 0px 5px 15px;
+}
+
+
+

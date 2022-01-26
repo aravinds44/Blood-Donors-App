@@ -1,0 +1,88 @@
+.donor-table{
+    margin: 20px 40px;
+    max-width: 900px;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+
+.tbl-content{
+    height: 400px;
+    overflow-x:auto;
+    margin-top: 0px;
+    position: relative;
+    border: 1px solid white;
+}
+.tbl-content::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .tbl-content::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+  }
+  .tbl-content::-webkit-scrollbar-thumb {
+    background-color: #dfdfdf;
+    border-radius: 10px;
+  }
+
+th{
+    text-align: left;
+    padding: 20px 15px;
+    text-transform: uppercase;
+    color: #707070;
+    font-weight:600 ;
+
+}
+td{
+    text-align: left;
+    padding: 15px;
+    vertical-align: middle;
+    border-bottom:1px solid #707070 ;
+    color: #424A67;   
+    font-weight: 600; 
+    font-size: 0.9rem;
+}
+
+th.col-sno, td.col-sno{
+    max-width:20px ;
+}
+
+.expand-btn{
+    background-color: transparent;
+    border: 2px solid #424A67;
+    color: #424A67;
+    border-radius: 10px;
+    padding: 1px;
+
+}
+
+.expand-btn:hover{
+    color: #ff4c68;
+    border: 2px solid #ff4c68;
+    cursor: pointer;
+}
+
+/* .expand-btn{
+    position: relative;
+    left: 30px;
+    border: none;
+    color: #ff4c68;
+}
+
+.expand-btn :hover{
+    box-shadow: #ff4c68 0px 5px 15px;
+    cursor: pointer;
+}
+
+.btn-label{
+    display: inline-block;
+    font-size: 0.7rem;
+    position: relative;
+    left: 35px;
+    font-weight: 400;
+    color: black;
+} */
