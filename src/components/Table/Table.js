@@ -1,9 +1,8 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Cell from './Cell'
 import TableHeader from './TableHeader'
 import './Table.css'
 import DonorCard from '../DonorCard/DonorCard'
-import { useState } from 'react/cjs/react.development'
 
 
 function Table(props) {
