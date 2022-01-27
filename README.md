@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Blood Donors App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App] and has deployed using firebase.(https://blood-donors-1.web.app/)
 
 ## Available Scripts
 
